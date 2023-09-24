@@ -1,0 +1,10 @@
+#construccion{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.qr{
+    position:absolute;
+    background-color: white;
+}
+.qr:hover{
+    opacity: 0;
+}

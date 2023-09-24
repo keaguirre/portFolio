@@ -11,14 +11,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-black">
-    <img class="xl:h-screen 2xl:h-screen md:h-auto lg:h-auto w-auto" src="Assets/1.gif" alt="">
-    <h1 id="construccion" class="text-white absolute left-44 top-64 text-7xl">En construcción</h1>
-    <h1 id="construccion" class="text-white absolute left-44 top-80 text-2xl">Visítame en mis redes</h1>
-    <section class="flex absolute top-96 left-44">
-        <a class="ml-5" href="https://github.com/keaguirre"><img width="48" height="48" src="Assets/gh-icon.svg" alt="github"/></a>
-        <a class="ml-5" href="https://www.linkedin.com/in/ke-aguirre"><img width="48" height="48" src="Assets/linkedin-color.svg" alt="linkedin"/></a>
-        <a class="ml-5" href="https://hihello.me/p/058bdc50-cdbd-44c3-8488-2617fab86fb2"><img id="qr" width="48" height="48" src="Assets/qr.png" alt="qr"/></a>
-    </section>
+    <!-- dejar la imagen abajo y el en construccion arriba con las redes en mobile -->
+    <!-- que el position de los titulos igual sea responsive -->
+    <main class="">
+        <img class="2xl:h-screen xl:h-screen lg:h-auto md:h-auto w-auto" src="Assets/1.gif" alt="">
+        <section class="">
+            <h1 id="construccion" class="text-white absolute left-44 top-64  2xl:text-7xl xl:text-7xl lg:text-5xl md:text-5xl sm:text-5xl">En construcción</h1>
+            <h1 id="construccion" class="text-white absolute left-44 top-80 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl sm:text-2xl">Visítame en mis redes</h1>
+        </section>
+        <section class="flex absolute top-96 left-44">
+            <a class="ml-5" href="https://github.com/keaguirre"><img width="48" height="48" src="Assets/github-icon.png" alt="github"/></a>
+            <a class="ml-5" href="https://www.linkedin.com/in/ke-aguirre"><img width="48" height="48" src="Assets/linkedin-icon.png" alt="linkedin"/></a>
+            <a class="ml-5" href="https://hihello.me/p/058bdc50-cdbd-44c3-8488-2617fab86fb2"><img id="qr" width="48" height="48" src="Assets/qr.png" alt="qr"/></a>
+        </section>
+
+    </main>
 </body>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
